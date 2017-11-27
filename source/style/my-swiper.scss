@@ -4,6 +4,20 @@
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+.parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 140%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: url(../img/services-bg.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
 .swiper-slide {
   color: #fff;
   z-index: 2;
@@ -27,49 +41,47 @@
   }
 }
 
-.swiper-container--first .swiper-wrapper .swiper-slide:nth-child(1) {
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(1) {
 	background-image: url(https://cid.uk.com/images/services/special-services.jpg);
 }
 
-.swiper-container--first .swiper-wrapper .swiper-slide:nth-child(2) {
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(2) {
 	background-image: url(https://cid.uk.com/images/services/relocation.jpg);
 }
 
-.swiper-container--first .swiper-wrapper .swiper-slide:nth-child(3) {
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(3) {
 	background-image: url(https://cid.uk.com/images/services/auction-wines.jpg);
 }
 
-.swiper-container--first .swiper-wrapper .swiper-slide:nth-child(4) {
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(4) {
 	background-image: url(https://cid.uk.com/images/services/private-aircraft.jpg);
 }
 
-.swiper-container--first .swiper-wrapper .swiper-slide:nth-child(5) {
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(5) {
 	background-image: url(https://cid.uk.com/images/services/luxuryYachts.jpg);
 }
 
-.swiper-container--first .swiper-wrapper .swiper-slide:nth-child(6) {
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(6) {
 	background-image: url(https://cid.uk.com/images/services/road-freight.jpg);
 } 
 
-
-
-.swiper-container--second .swiper-wrapper .swiper-slide:nth-child(1) {
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(7) {
 	background-image: url(https://cid.uk.com/images/services/courier.jpg);
 }
 
-.swiper-container--second .swiper-wrapper .swiper-slide:nth-child(2) {
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(8) {
 	background-image: url(https://cid.uk.com/images/services/sea-freight.jpg);
 }
 
-.swiper-container--second .swiper-wrapper .swiper-slide:nth-child(3) {
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(9) {
 	background-image: url(https://cid.uk.com/images/services/eCouriers.jpg);
 }
 
-.swiper-container--second .swiper-wrapper .swiper-slide:nth-child(4) {
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(10) {
 	background-image: url(https://cid.uk.com/images/services/air.jpg);
 }
 
-.swiper-container--second .swiper-wrapper .swiper-slide:nth-child(5) {
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(11) {
 	background-image: url(https://cid.uk.com/images/services/import.jpg);
 }
  

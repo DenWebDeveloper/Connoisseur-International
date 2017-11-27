@@ -1,5 +1,6 @@
-var swiper = new Swiper('.swiper-container--first', {
+var swiper = new Swiper('.swiper-container', {
   effect: 'coverflow',
+   parallax: true,
   grabCursor: true,
   centeredSlides: true,
   slidesPerView: 'auto',
@@ -15,7 +16,7 @@ var swiper = new Swiper('.swiper-container--first', {
   },
 });
 
-var swiper = new Swiper('.swiper-container--second', {
+/*var swiper = new Swiper('.swiper-container--second', {
   effect: 'coverflow',
   grabCursor: true,
   centeredSlides: true,
@@ -30,4 +31,4 @@ var swiper = new Swiper('.swiper-container--second', {
   pagination: {
     el: '.swiper-pagination',
   },
-});
+});*/

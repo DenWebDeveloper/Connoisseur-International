@@ -1,6 +1,7 @@
 section#services
-	h2 Services
-	.swiper-container.swiper-container--first
+	.swiper-container
+		.parallax-bg(data-swiper-parallax="-25%")
+			h2 Services
 		.swiper-wrapper
 			.swiper-slide
 				img(src="https://cid.uk.com/images/services/special-services.png", alt="Icon")
@@ -32,10 +33,6 @@ section#services
 				h3 Overland Freight
 				p.margin-b-10 Connoisseur are able to facilitate the movement of your goods by truck...
 				a.btn.btn-warning(data-toggle='modal', data-target='#servicesSlider1-1') Read more
-		.swiper-pagination
-	hr
-	.swiper-container.swiper-container--second
-		.swiper-wrapper
 			.swiper-slide
 				img(src="https://cid.uk.com/images/services/courier.png", alt="Icon")
 				h3 Worldwide Courier
