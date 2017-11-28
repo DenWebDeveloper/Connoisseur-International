@@ -1,4 +1,4 @@
-
+#services {
 .swiper-container {
   width: 100%;
   padding-top: 50px;
@@ -84,4 +84,14 @@
 .swiper-container .swiper-wrapper .swiper-slide:nth-child(11) {
 	background-image: url(https://cid.uk.com/images/services/import.jpg);
 }
+ }
+
+#about {
+  padding-top: 50px;
+      .swiper-container {
+        padding-top: 20px;
+      width: 100%;
+      min-height: 100%;
+    } 
  
+}
