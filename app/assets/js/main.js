@@ -24,6 +24,6 @@ var swiper = new Swiper("#about .swiper-container", {
   grabCursor: true,
   slideToClickedSlide: true,
   autoplay: {
-    delay: 8000
+    delay: 6000
   }
 });
