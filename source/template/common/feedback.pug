@@ -1,26 +1,36 @@
-#feedback
+#feedback.feedback
 	.container-fluid 
 		.row 
-			.col-sm-5.col-sm-offset-1.col-xs-10.col-xs-offset-1
-			h2 Login
-			form.form
-				.form-group
-				input.form-control(type='text', placeholder='Login')
-				input.form-control(type='text', placeholder='Password')
-				button.btn(type='submit') Login
-			.col-sm-5.col-xs-10.col-xs-offset-1.col-sm-offset-0
+			.col-sm-5.offset-sm-1
+				h2 Login
+				form.form
+					.form-group
+						.input-group
+							span.icon-user
+							input.form-control(type='text', placeholder='Login')
+						.input-group
+							span.icon-password
+							input.form-control(type='text', placeholder='Password')
+					button.btn.btn-danger(type='submit') Login
+			.col-sm-5  
 				h2 Contact us
 				form.form
-					input.form-control(type='search', placeholder='Name')
-					input.form-control(type='search', placeholder='Company name')
-					input.form-control(type='search', placeholder='Your.mail@mail.box')
+					.input-group
+						span.icon-name
+						input.form-control(type='text', placeholder='Name')
+					.input-group
+						span.icon-name-company
+						input.form-control(type='text', placeholder='Company name')
+					.input-group
+						span.icon-mail
+						input.form-control(type='text', placeholder='Your.mail@mail.box')
 					.form-group
 						label(for='your-message') Your message:
 						textarea#your-message.form-control(rows='3', placeholder='Your message')
-					button.btn(type='submit') Send
+					button.btn.btn-danger(type='submit') Send
 		.row
-			h2 Connoisseur International Distribution
-			.col-sm-5.col-sm-offset-1
+			h2.pl-3 Connoisseur International Distribution
+			.col-sm-5.offset-sm-1
 				ul.contact-list
 					li Connoisseur International Distribution Ltd
 					li Unit 1 Beta Way

@@ -8,11 +8,7 @@ html
 
 		link(href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700",900, rel="stylesheet", type="text/css")
 		link(rel='stylesheet' href='assets/css/style-dark.css')
-		script( src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js", integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh", crossorigin="anonymous")
-		script(src='assets/js/foundation.js' defer)
-		script(src='assets/js/app.js' defer)
-		script(src='assets/js/swiper.js' defer)
-		script(src='assets/js/main.js' defer)
+		
 	body
 		include common/header.pug
 		main
@@ -21,5 +17,10 @@ html
 			include common/tracking.pug
 			include common/about.pug
 			include common/feedback.pug
-
+		script( src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js", integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh", crossorigin="anonymous") 
+		script(src='assets/js/foundation.js')
+		script(src='assets/js/app.js')
+		script(src='assets/js/swiper.js')
+		script(src='assets/js/particles.min.js')
+		script(src='assets/js/main.js')
 	
