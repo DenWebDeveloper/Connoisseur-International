@@ -12,7 +12,7 @@ header {
 	
 	.navbar {
 		padding: 20px 10px;	
-		background-color: #232323;
+		background-color:#323232;
 	}
 	.navbar-brand,
 	.nav-link {
@@ -82,7 +82,24 @@ header {
 }
 
 @media(max-width:420px ) {
-		.navbar-brand {font-size: 0.95rem; }
+		
+		header .container {
+			padding-bottom: 35px;
+		}
+		header .navbar {
+			padding-top: 8px;
+		padding-bottom: 8px;
+		}
+
+		header .header-content {
+			align-items: flex-end;
+		}
+
+		header .header-content h1 {
+    		font-size: 2.9rem;
+		}
+		.navbar-brand {font-size: 0.9rem;
+		  }
 	}
 
 #tracking {
