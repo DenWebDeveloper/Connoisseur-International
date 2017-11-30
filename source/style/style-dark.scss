@@ -207,6 +207,7 @@ header {
 }
 
 #feedback {
+	padding-bottom: 25px;
 	padding-top: 50px;
 	position: relative;
 	top: 0;
@@ -214,7 +215,7 @@ header {
 
 	.form {
 		padding: 30px;
-		background-color: rgba(95,100,110,0.22);
+		background-color: rgba(68, 74, 86, 0.81);
 		margin-bottom: 30px;
 	}
 
@@ -281,8 +282,7 @@ header {
 	}
 
 	.container-map {
-		padding-left: 0;
-		padding-right: 0;
+		padding-bottom: 20px;
 	}
 
 	.contact-us {
@@ -305,6 +305,16 @@ header {
 	height: 400px;
 }
 
+footer {
+	padding-top: 40px;
+	background-color: #2f3238;
+
+	 
+
+	a[href='#top'] {
+		font-size: 1.4rem;
+	}
+}
 
 #modals {
  
