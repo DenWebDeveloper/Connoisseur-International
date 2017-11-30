@@ -321,4 +321,20 @@ footer {
 	.modal-content {
 		background-color: #323232;
 	}
+
+	#servicesSlider1-9 {
+		a {
+			margin: 0 auto;
+			max-width: 65px;
+			display: block;
+			margin-bottom: 20px;
+			margin-top: 20px;
+			color: #C58000;
+   			padding: 5px 10px;
+   			border-radius: 5px;
+   			box-shadow: -1px 2px 7px black;
+    		background-color: rgba(60, 60, 60, 0.74) !important;
+    		border: 1px solid rgba(64, 64, 64, 0.4);
+		}
+	}
 }
