@@ -247,23 +247,23 @@ header {
 	}
 	
 	.icon-user {
-		background: transparent url(../img/login.svg) 0 0 no-repeat;
+		background: transparent url(../img/user.svg) 0 0 no-repeat;
 	}
 
 	.icon-password {
-		background: transparent url(../img/key.svg) 0 0 no-repeat;
+		background: transparent url(../img/padlock.svg) 0 0 no-repeat;
 	}
 	
 	.icon-name {
-		background: transparent url(../img/users.svg) 0 0 no-repeat;
+		background: transparent url(../img/user-name.svg) 0 0 no-repeat;
 	}
 
 	.icon-name-company {
-		background: transparent url(../img/factory2.svg) 0 0 no-repeat;
+		background: transparent url(../img/factory.svg) 0 0 no-repeat;
 	}
 	
 	.icon-mail {
-		background: transparent url(../img/email.svg) 0 0 no-repeat;
+		background: transparent url(../img/mail.svg) 0 0 no-repeat;
 	}
 
 	.container-map {
@@ -278,6 +278,20 @@ header {
 	.contact-us-wrapper {
 		padding-top: 20px;
 		background-color: rgba(95,100,110,0.22);
+
+		&>div:first-child {
+			margin-bottom: 25px;
+		}
+	}
+
+	.btn-dark {
+		background-color: #23272b;
+    border-color: #1d2124;
+
+    	&:hover {
+    		    background-color: #343a40;
+    border-color: #343a40;
+    	}
 	}
 } 
 

@@ -31,6 +31,8 @@ var swiper = new Swiper("#about .swiper-container", {
   }
 });
 
+
+if($("#feedback").width() > 768) {
 particlesJS("feedback", {
   "particles": {
     "number": {
@@ -141,6 +143,8 @@ particlesJS("feedback", {
   },
   "retina_detect": true
 });
+
+}
 
   
   var uluru = {lat: 21.363, lng: 1.044};
