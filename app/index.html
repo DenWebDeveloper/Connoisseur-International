@@ -174,10 +174,11 @@
           </div>
         </div>
       </section>
+      <div id="destinations-map"></div>
       <div class="feedback" id="feedback">
         <div class="container"> 
           <div class="row"> 
-            <div class="col-sm-5 offset-sm-1">
+            <div class="col-md-5 offset-md-1">
               <h2>Login</h2>
               <form class="form">
                 <div class="form-group">
@@ -191,7 +192,7 @@
                 <button class="btn btn-primary" type="submit">Login</button>
               </form>
             </div>
-            <div class="col-sm-5"> 
+            <div class="col-md-5"> 
               <h2>Contact us</h2>
               <form class="form">
                 <div class="input-group"><span class="icon-name"></span>
@@ -214,7 +215,7 @@
           <div class="contact-us">
             <h2 class="pl-3">Connoisseur International Distribution</h2>
             <div class="row contact-us-wrapper">
-              <div class="col-sm-5 offset-sm-1">
+              <div class="col-md-5 offset-md-1">
                 <ul class="contact-list">
                   <li>Connoisseur International Distribution Ltd</li>
                   <li>Unit 1 Beta Way</li>
@@ -225,13 +226,26 @@
                   <li>Great Britain</li>
                 </ul><a href="tel:+44(0)1895 438822">Tel: +44(0)1895 438822<br></a><a href="#">Fax: +44(0)1895 438833</a>
               </div>
-              <div class="col-sm-6 container-map">
+              <div class="col-md-6 container-map">
                 <div id="map"></div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <footer>
+        <div class="container-fluid">
+          <div class="row align-items-center">
+            <div class="col-md-2 text-left mb-4"><a href="#top">Connoisseur</a></div>
+            <div class="col-md-8">
+              <p class="text-center">Copyright © Connoisseur International Distribution  2015 | Designed & Developed by RDSeal</p>
+            </div>
+            <div class="col-md-2 text-right">
+              <p><a href="#">Terms & Conditions</a><br><a href="#">Cookie Policy</a></p>
+            </div>
+          </div>
+        </div>
+      </footer>
       <div id="modals">
         <div class="modal fade" id="our-company-1" tabindex="-1" role="dialog" aria-hidden="true">
           <div class="modal-dialog" role="document">
@@ -628,6 +642,31 @@
             </div>
           </div>
         </div>
+        <div class="modal fade" id="destinations-1" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Import</h5>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+              </div>
+              <div class="modal-body">
+                <p>At Connoisseur, we offer a fully integrated import and Custom’s brokerage solution, we arrange, coordinate and handle the imports of wines from all over the world. We offer a variety of service options including air, ocean, road and rail. Offices in London have a direct interface with HM customs which enables us to make direct, detailed and comprehensive customs brokerage. Our in-house (IT) systems are directly linked enabling us to receive and land wines directly into our bonded warehouse and if required, prepare and split consignments for multiple bonded and or home use transfer. Our experienced staff are highly trained and able to assist and facilitate the movement of your wines promptly, safely and efficiently, ensuring the meticulous attention to detail associated with Connoisseur.</p>
+                <ul>
+                  <li>Direct In-house Link to Customs</li>
+                  <li>Worldwide Network</li>
+                  <li>Variety of Services</li>
+                  <li>Bonded Warehouse (Temperature Controlled)</li>
+                  <li>EMCs Available (For Duty Free Transfer of Wines)</li>
+                  <li>Multiple Order Receipting</li>
+                  <li>Experienced Trained Staff</li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-dark" type="button" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"> </script>
@@ -636,19 +675,7 @@
     <script src="assets/js/swiper.js"></script>
     <script src="assets/js/particles.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQxea9uuYkd3uIsN1ph9z3VKkNOP5wKQ8"></script>
+    <script src="assets/js/gmap-destinations.js"></script>
     <script src="assets/js/main.js"></script>
-    <footer>
-      <div class="container-fluid">
-        <div class="row align-items-center">
-          <div class="col-md-2 text-left mb-4"><a href="#top">Connoisseur</a></div>
-          <div class="col-md-8">
-            <p class="text-center">Copyright © Connoisseur International Distribution  2015 | Designed & Developed by RDSeal</p>
-          </div>
-          <div class="col-md-2 text-right">
-            <p><a href="#">Terms & Conditions</a><br><a href="#">Cookie Policy</a></p>
-          </div>
-        </div>
-      </div>
-    </footer>
   </body>
 </html>
