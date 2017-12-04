@@ -82,6 +82,8 @@ $(function() {
       .index();
     if (markersData[number].status) {
       $(this)
+        .html("Back");
+      $(this)
         .parent()
         .find(".our-company")
         .toggleClass("hidden");
@@ -115,6 +117,8 @@ $(function() {
 
       markersData[number].status = false;
     } else {
+       $(this)
+        .html("Overseas Representative");
       $(this)
         .parent()
         .find(".our-company")
