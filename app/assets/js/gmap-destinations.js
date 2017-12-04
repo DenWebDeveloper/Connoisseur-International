@@ -122,11 +122,11 @@ $(function() {
       $(this)
         .parent()
         .find(".our-company")
-        .toggle(".hidden");
+        .toggleClass("hidden");
       $(this)
         .parent()
         .find(".our-company-map-block")
-        .toggle(".hidden");
+        .toggleClass("hidden");
 
       markersData[number].status = true;
       var map = null;
