@@ -141,7 +141,7 @@ var markersData = [
     },
     name: "Spain",
     status: true,
-    pText: "<div> <ul class=\"nav nav-tabs\"> <li class=\"nav-item\" ><a class=\"nav-link nav-link active\" href=\"#spain-contact-1\" data-toggle=\"tab\" aria-expanded=\"true\">Mainland & Canary Islands</a></li>  <li class=\"nav-item\" ><a class=\"nav-link nav-link \" href=\"#spain-contact-2\" data-toggle=\"tab\" aria-expanded=\"false\">Balearic Islands</a></li> </ul> <div id=\"myTabContent\" class=\"tab-content\"> <div class=\"tab-pane fade active in\" id=\"spain-contact-1\"> ER Transit<br>C/ Grabadores 1<br>Naves 4-5-6<br>Madrid (España)<br>Tel: (+34) 916 690 102<br>Fax: (+34) 916 690 008<br>Email: comercial.general@ertransit.com<br></div><div class=\"tab-pane fade\" id=\"spain-contact-2\">Rapid Transit<br>Passeig Maritimo 44<br>07015 Palma<br>Spain<br>Tel: +34 971 40 12 10<br>Email: bruno@rapidtrans.com<br></div></div></div>"
+    pText: "<div> <ul class=\"nav nav-tabs\"> <li class=\"nav-item\" ><a class=\"nav-link nav-link active\" href=\"#spain-contact-1\" data-toggle=\"tab\" aria-expanded=\"true\">Mainland & Canary Islands</a></li>  <li class=\"nav-item\" ><a class=\"nav-link nav-link \" href=\"#spain-contact-2\" data-toggle=\"tab\" aria-expanded=\"false\">Balearic Islands</a></li> </ul> <div id=\"myTabContent\" class=\"tab-content\"> <div class=\"tab-pane fade active in show\" id=\"spain-contact-1\"> ER Transit<br>C/ Grabadores 1<br>Naves 4-5-6<br>Madrid (España)<br>Tel: (+34) 916 690 102<br>Fax: (+34) 916 690 008<br>Email: comercial.general@ertransit.com<br></div><div class=\"tab-pane fade\" id=\"spain-contact-2\">Rapid Transit<br>Passeig Maritimo 44<br>07015 Palma<br>Spain<br>Tel: +34 971 40 12 10<br>Email: bruno@rapidtrans.com<br></div></div></div>"
     },
      {
     position: {
@@ -227,7 +227,7 @@ function initMap() {
 
   // Перебираем в цикле все координата хранящиеся в markersData
   for (var i = 0; i < markersData.length; i++) {
-    var latLng = new google.maps.LatLng(markersData[i].lat, markersData[i].lng);
+    var latLng = new google.maps.LatLng(markersData[i].position.lat, markersData[i].position.lng);
     var name = markersData[i].name;
 
     // Добавляем маркер с информационным окном
@@ -246,8 +246,9 @@ function addMarker(latLng, name) {
 
   // Отслеживаем клик по нашему маркеру
   google.maps.event.addListener(marker, "click", function() {
-    console.log(this);
-  });
+    console.log("#our-company-" + this.title.toLowerCase())
+    $("#our-company-" +this.title.toLowerCase()).modal('show')
+        });
 }
 
 $(function() {
@@ -300,6 +301,69 @@ $(function() {
         .toggleClass("hidden");
       $(this)
         .parent()
+        .find(".our-company-map-block")
+        .toggleClass("hidden");
+
+      markersData[number].status = true;
+      var map = null;
+      var marker = null;
+    }
+  });
+});
+
+
+$(function() {
+  $("#our-company-the-caribbean .caribbean-lists .list-group-item").click(function() {
+    var number = $(this)
+      .parents(".list-group.caribbean-lists")
+      .index();
+    if (markersData[number].status) {
+     $("#our-company-the-caribbean")
+       .find(".bth-toggle")
+        .html("Back");
+      $(this)
+        .parents("#our-company-the-caribbean")
+        .find(".our-company")
+        .toggleClass("hidden");
+      $(this)
+        .parents("#our-company-the-caribbean")
+        .find(".our-company-map-block")
+        .toggleClass("hidden");
+      $(this)
+        .parents("#our-company-the-caribbean")
+        .find(".our-company-map-block")
+        .html(
+          "<p>" +  markersData[number].pText + "<a class=\"btn btn-info\" href=\"mailto:sales@cid.uk.com?Subject=Web Enquiries -" + markersData[number].name +
+            "\">Conctact us</a></p><div class=\"our-company-map\"></div>"
+        );
+
+      var map = new google.maps.Map(
+        $(this)
+          .parents("#our-company-the-caribbean")
+          .find(".our-company-map-block")[0],
+        {
+          zoom: 1,
+          center: markersData[number].position
+        }
+      );
+
+      var marker = new google.maps.Marker({
+        position: markersData[number].position,
+        map: map,
+        title: markersData.name
+      });
+
+      markersData[number].status = false;
+    } else {
+       $("#our-company-the-caribbean")
+       .find(".bth-toggle")
+        .html("Overseas Representative");
+      $(this)
+        .parents("#our-company-the-caribbean")
+        .find(".our-company")
+        .toggleClass("hidden");
+      $(this)
+        .parents("#our-company-the-caribbean")
         .find(".our-company-map-block")
         .toggleClass("hidden");
 

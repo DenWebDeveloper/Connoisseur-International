@@ -392,10 +392,42 @@ footer {
 		.modal-title {
 			font-size: 1.7rem;
 		}
+
+		.bth-toggle {
+			margin-top: 20px;
+		}
+
+		.tab-pane {
+			margin-bottom: 20px;
+			margin-top: 20px;
+		}
+
+		.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+			color: #30eada;
+		}
+
+		.caribbean-lists {
+			 li {
+			 	background: rgb(74, 73, 73);
+   				border: 1px solid;
+   				border-radius: 3px;
+   				max-width: 200px;
+   				text-align: center;
+   				padding: 3px;
+   				margin: 3px;
+   				cursor: pointer;
+   				transition:0.3s ease-out all;
+			 }
+
+			 li:hover {
+			 	padding: 10px;
+			 }
+		}
 	}
 
 	.our-company-map {
 		height: 300px;
+
 	}
 
 	.hidden {
