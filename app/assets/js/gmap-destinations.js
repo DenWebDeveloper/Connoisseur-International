@@ -58,7 +58,7 @@ var markersData = [
       lat: 22.321937, // Широта
       lng: 114.208588 // Долгота
     },
-    name: "Hong Kong",
+    name: "hongKong",
     status: true,
     pText: "<p>Connoisseur International Distribution Ltd C/O<br>CLASQUIN FAR EAST LTD<br>UNITS 05-09, 12/F- METROLOFT<br>38 KWAI HEI STREET<br>KWAI CHUNG,NEW TERRITORIES<br>HONG KONG<br>Tel: 0085227587832<br>Fax: 0085227582855<br>Email: hkg@clasquin.com<br></p>"
     },
@@ -201,6 +201,115 @@ var markersData = [
 ];
 
 
+
+
+
+var caribbeanMarkersData = [
+  {
+    position: {
+      lat: 25.0377, // Широта
+      lng: -77.39799 // Долгота
+    },
+    name: "Bahamas",
+    status: true,
+    pText: " <p><b>Bahamas</b><br>Connoisseur International Distribution Ltd C/O<br>Pinder's Customs Brokers Ltd<br>Mackey Street<br>Nassau P.O. Box: N-3714<br>Nassau / Paradise Island, Bahamas<br>Tel: 002423933795<br>Fax: 002423930227</p>"
+    },
+
+    {
+    position: {
+      lat: 10.6492838, // Широта
+      lng: -61.4955961// Долгота
+    },
+    name: "Antigua",
+    status: true,
+    pText: "<p><b>Antigua</b><br>Connoisseur International Distribution Ltd C/O<br>E Couriers<br>Unit 802 Fernandes Industrial Centre<br>Main East Road<br>Laventille Port of Spain<br>Trinidad & Tobago<br>Tel: 0018686262351<br>Email: sydney.martin@getezone.com</p>"
+    },
+     {
+    position: {
+      lat: 10.6492838, // Широта
+      lng: -61.4955961 // Долгота
+    },
+    name: "Jamaica",
+    status: true,
+    pText: "<p><b>Jamaica</b><br>Connoisseur International Distribution Ltd C/O<br>E Couriers<br>Unit 802 Fernandes Industrial Centre<br>Main East Road<br>Laventille Port of Spain<br>Trinidad & Tobago<br>Tel: 0018686262351<br>Email: sydney.martin@getezone.com<br></p>"
+    },
+    {
+    position: {
+      lat: 10.6492838, // Широта
+      lng: -61.4955961 // Долгота
+    },
+    name: "Barbados",
+    status: true,
+    pText: "<p><b>Barbados</b><br>Connoisseur International Distribution Ltd C/O<br>E Couriers<br>Unit 802 Fernandes Industrial Centre<br>Main East Road<br>Laventille Port of Spain<br>Trinidad & Tobago<br>Tel: 0018686262351<br>Email: sydney.martin@getezone.com</p>"
+    },
+    {
+    position: {
+      lat: 10.6492838, // Широта
+      lng: -61.4955961 // Долгота
+    },
+    name: "St. Lucia",
+    status: true,
+    pText: "<p><b>St. Lucia</b><br>Connoisseur International Distribution Ltd C/O<br>E Couriers<br>Unit 802 Fernandes Industrial Centre<br>Main East Road<br>Laventille Port of Spain<br>Trinidad & Tobago<br>Tel: 0018686262351<br>Email: sydney.martin@getezone.com</p>"
+    },
+    {
+    position: {
+      lat: 10.6492838, // Широта
+      lng: -61.4955961 // Долгота
+    },
+    name: "St. Kitts",
+    status: true,
+    pText: "<p><b>St. Kitts</b><br>Connoisseur International Distribution Ltd C/O<br>E Couriers<br>Unit 802 Fernandes Industrial Centre<br>Main East Road<br>Laventille Port of Spain<br>Trinidad & Tobago<br>Tel: 0018686262351<br>Email: sydney.martin@getezone.com</p>"
+    },
+    {
+    position: {
+      lat: 10.6492838, // Широта
+      lng: -61.4955961 // Долгота
+    },
+    name: "trinidad",
+    status: true,
+    pText: "<p><b>Trinidad</b><br>Connoisseur International Distribution Ltd C/O<br>E Couriers<br>Unit 802 Fernandes Industrial Centre<br>Main East Road<br>Laventille Port of Spain<br>Trinidad & Tobago<br>Tel: 0018686262351<br>Email: sydney.martin@getezone.com</p>"
+    },
+    {
+    position: {
+      lat: 19.2998188, // Широта
+      lng: -81.3604648 // Долгота
+    },
+    name: "cayman-islands",
+    status: true,
+    pText: "<p><b>Cayman Islands</b><br>Connoisseur International Distribution Ltd C/O<br>Vino Veritas<br>PO Box 10766<br>Grand Cayman KY1-1007<br>CAYMAN ISLANDS<br>Tel: 003455268466<br>Email: info@vino.ky<br></p>"
+    },
+    {
+    position: {
+      lat: 13.0188591, // Широта
+      lng: -61.1980066 // Долгота
+    },
+    name: "grenada",
+    status: true,
+    pText: "<p><b>Grenada</b><br>Connoisseur International Distribution Ltd C/O<br>The Mustique Company Ltd<br>PO Box 349<br>St. Vincent & The Grenadines<br>Tel: 0017844504325<br>Fax: 0017844512621<br>Email: dcaine@mustique.vc<br></p>"
+    },
+    {
+    position: {
+      lat: 13.0188591, // Широта
+      lng: -61.1980066 // Долгота
+    },
+    name: "st-vincent",
+    status: true,
+    pText: "<p><b>St. Vincent</b><br>Connoisseur International Distribution Ltd C/O<br>The Mustique Company Ltd<br>PO Box 349<br>St. Vincent & The Grenadines<br>Tel: 0017844504325<br>Fax: 0017844512621<br>Email: dcaine@mustique.vc<br></p>"
+    },
+    {
+    position: {
+      lat: 13.0188591, // Широта
+      lng: -61.1980066// Долгота
+    },
+    name: "mustique",
+    status: true,
+    pText: "<p><b>Mustique</b><br>Connoisseur International Distribution Ltd C/O<br>The Mustique Company Ltd<br>PO Box 349<br>St. Vincent & The Grenadines<br>Tel: 0017844504325<br>Fax: 0017844512621<br>Email: dcaine@mustique.vc<br></p>"
+    },
+
+
+]
+
+
 var map, infoWindow;
 
 function initMap() {
@@ -258,8 +367,6 @@ $(function() {
       .index();
     if (markersData[number].status) {
       $(this)
-        .html("Back");
-      $(this)
         .parent()
         .find(".our-company")
         .toggleClass("hidden");
@@ -292,9 +399,7 @@ $(function() {
       });
 
       markersData[number].status = false;
-    } else {
-       $(this)
-        .html("Overseas Representative");
+    } else { 
       $(this)
         .parent()
         .find(".our-company")
@@ -308,68 +413,59 @@ $(function() {
       var map = null;
       var marker = null;
     }
+    
+    if($(this).html()=="Overseas Representative") {
+          $(this)
+        .html("Back");
+      } else {
+         $(this).html("Overseas Representative");
+      }
   });
 });
 
 
-$(function() {
-  $("#our-company-the-caribbean .caribbean-lists .list-group-item").click(function() {
+$(function() { 
+
+  $("#our-company-caribbean .caribbean-lists .list-group-item").click(function() {
     var number = $(this)
-      .parents(".list-group.caribbean-lists")
       .index();
-    if (markersData[number].status) {
-     $("#our-company-the-caribbean")
+
+      $("#our-company-caribbean")
        .find(".bth-toggle")
         .html("Back");
       $(this)
-        .parents("#our-company-the-caribbean")
+        .parents("#our-company-caribbean")
         .find(".our-company")
         .toggleClass("hidden");
       $(this)
-        .parents("#our-company-the-caribbean")
+        .parents("#our-company-caribbean")
         .find(".our-company-map-block")
         .toggleClass("hidden");
       $(this)
-        .parents("#our-company-the-caribbean")
+        .parents("#our-company-caribbean")
         .find(".our-company-map-block")
         .html(
-          "<p>" +  markersData[number].pText + "<a class=\"btn btn-info\" href=\"mailto:sales@cid.uk.com?Subject=Web Enquiries -" + markersData[number].name +
-            "\">Conctact us</a></p><div class=\"our-company-map\"></div>"
+            caribbeanMarkersData[number].pText + "<a class=\"btn btn-info mb-4\" href=\"mailto:sales@cid.uk.com?Subject=Web Enquiries -" + caribbeanMarkersData[number].name +
+            "\">Conctact us</a><div class=\"our-company-map\"></div>"
         );
 
       var map = new google.maps.Map(
         $(this)
-          .parents("#our-company-the-caribbean")
-          .find(".our-company-map-block")[0],
+          .parents("#our-company-caribbean")
+          .find(".our-company-map")[0],
         {
           zoom: 1,
-          center: markersData[number].position
+          center: caribbeanMarkersData[number].position
         }
       );
 
       var marker = new google.maps.Marker({
-        position: markersData[number].position,
+        position: caribbeanMarkersData[number].position,
         map: map,
-        title: markersData.name
+        title:caribbeanMarkersData.name
       });
 
-      markersData[number].status = false;
-    } else {
-       $("#our-company-the-caribbean")
-       .find(".bth-toggle")
-        .html("Overseas Representative");
-      $(this)
-        .parents("#our-company-the-caribbean")
-        .find(".our-company")
-        .toggleClass("hidden");
-      $(this)
-        .parents("#our-company-the-caribbean")
-        .find(".our-company-map-block")
-        .toggleClass("hidden");
-
-      markersData[number].status = true;
-      var map = null;
-      var marker = null;
-    }
   });
+
+  
 });

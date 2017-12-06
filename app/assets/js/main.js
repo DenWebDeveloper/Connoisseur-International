@@ -140,14 +140,23 @@ $(function() {
       retina_detect: true
     });
   }
+});
+ $(function(){
 
-  var uluru = { lat: 21.363, lng: 1.044 };
   var map = new google.maps.Map(document.getElementById("map"), {
     zoom: 6,
-    center: uluru
+    center:  { lat: 51.417754, lng:  -0.528043 }
   });
 
-  
-});
+var marke1sr = new google.maps.Marker({
+    position: { lat: 551.417753, lng:  -0.528043 },
+    map: map,
+    title: "Connoisseur International"
+  });
+ 
+
+
+
+ });
 
  
