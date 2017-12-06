@@ -144,12 +144,12 @@ $(function() {
  $(function(){
 
   var map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 6,
+    zoom: 16,
     center:  { lat: 51.417754, lng:  -0.528043 }
   });
 
 var marke1sr = new google.maps.Marker({
-    position: { lat: 551.417753, lng:  -0.528043 },
+    position: { lat: 51.417753, lng:  -0.528043 },
     map: map,
     title: "Connoisseur International"
   });
