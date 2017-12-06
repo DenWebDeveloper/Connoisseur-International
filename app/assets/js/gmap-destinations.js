@@ -310,7 +310,8 @@ var caribbeanMarkersData = [
 ]
 
 
-var map, infoWindow;
+ $(function(){
+  var map, infoWindow;
 
 function initMap() {
   var centerLatLng = new google.maps.LatLng(56.2928515, 43.7866641);
@@ -359,6 +360,7 @@ function addMarker(latLng, name) {
     $("#our-company-" +this.title.toLowerCase()).modal('show')
         });
 }
+ })
 
 $(function() {
   $(".bth-toggle").click(function() {
@@ -467,5 +469,5 @@ $(function() {
 
   });
 
-  
+
 });
