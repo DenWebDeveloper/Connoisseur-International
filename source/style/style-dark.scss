@@ -13,7 +13,6 @@ header {
 	font-weight: 900;
 	background: transparent url(../img/bg-header.jpg) bottom left no-repeat;
 	background-size: cover;
-	 animation: move-background 60s infinite linear;
 	
 	.navbar {
 		padding: 20px 10px;	
@@ -72,21 +71,6 @@ header {
 	
 } 
 
-@keyframes move-background {
-  0% {
-    background-position: left center;
-    animation-timing-function: ease-in;
-    }
-  50% {
-   background-position: bottom right;
-    }
-
-    100% {
-    background-position: bottom left;
-    animation-timing-function: ease-in;
-    }
- 
-}
 
 
 #our-company {
@@ -211,41 +195,20 @@ header {
 	}
  
 
-    .input-wrapper {
-  width: 500px;
-  position: relative;
-}
-
-.input-wrapper::after {
-  content: attr(data-text);
-  font-size: 1.5rem;
-  line-height: 0;
-  height: 0;
-  max-width: 100%;
-  font-family: Roboto, Arial, sans-serif;
-  border-bottom: 3px solid #fff;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 3px;
-  overflow: hidden;
-  user-select: none;
-  color: transparent;
-}
 
 .form-control {
   color: #ddd;
   border: none;
-  padding: 0;
-  border-radius: 0;
+  padding: 0 10px;
+  border-radius: 10px;
   outline: none;
   width: auto;
   min-width: 100%;
   font-size: 1.5rem;
   line-height: 2.3em;
   font-family: Roboto, Arial, sans-serif;
-  border-bottom: 3px solid #333333;
-  background-color: transparent;
+  border: 3px solid #333333;
+  background-color: #5d3737;
 }
 
     .btn-warning {
@@ -443,9 +406,7 @@ footer {
 
 #modals {
  
-	.modal-content {
-		background-color: #323232;
-	}
+	 
 
 	#servicesSlider1-9 {
 		a {

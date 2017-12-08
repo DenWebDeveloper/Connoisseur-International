@@ -9,13 +9,7 @@ $('.navbar-nav a[href^="#"]').click( function(){
     return false;
 });
 
-
-var wrapper = document.querySelector(".input-wrapper"),
-      textInput = document.querySelector("input[type='search']");
-        
-textInput.addEventListener("keyup", event => {
-  wrapper.setAttribute("data-text", event.target.value);
-});
+ 
 
 
 
@@ -24,6 +18,7 @@ textInput.addEventListener("keyup", event => {
     effect: "coverflow",
     parallax: true,
     grabCursor: true,
+    initialSlide: 5,
     centeredSlides: true,
     slidesPerView: "auto",
     coverflowEffect: {
