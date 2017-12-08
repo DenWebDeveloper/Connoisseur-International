@@ -648,7 +648,6 @@ $(function() {
 
     addMarker(latLng, name);
   }
-  google.maps.event.addDomListener(window, "load", initMap);
 
   function addMarker(latLng, name) {
     var marker = new google.maps.Marker({
