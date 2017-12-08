@@ -312,7 +312,7 @@ header {
 		font-weight: 900;
 	}
 	
-	canvas {
+	.particles-js-canvas-el {
 		top: 0;
 		z-index: -1;
 		left: 0;
@@ -388,7 +388,7 @@ header {
  
 } 
 
-#map {
+#contact-us-map {
 	width: 100%;
 	height: 400px;
 }
@@ -415,6 +415,7 @@ footer {
 			display: block;
 			margin-bottom: 20px;
 			margin-top: 20px;
+			font-weight: bold;
 			color: #C58000;
    			padding: 5px 10px;
    			border-radius: 5px;
@@ -425,7 +426,7 @@ footer {
 	}
 
 	.destinations-modals {
-		
+		color: #000;
 		.modal.fade {
 			padding-left: 16px;
 		}
