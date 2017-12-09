@@ -1,4 +1,13 @@
 $(function() {
+    if(!$.cookie('firstVisit')) {
+        $('#cookies').modal('show');
+
+        $.cookie('firstVisit', 'false');
+    }
+     
+
+
+
     $('.navbar-nav a[href^="#"]').click(function() {
         var scroll_el = $(this).attr("href");
         if ($(scroll_el).length != 0) {
