@@ -33,6 +33,7 @@ header {
 	}
 
 	.header-content {
+		min-height: 510px;
 		display: flex;
    	 	align-items: center;
     	height: 100vh;
@@ -257,7 +258,6 @@ header {
 
 	 
 		h2 {
-		padding-left: 10px;
 		color: #fff;
 		font-size: 3.2rem;
 		margin-bottom: 20px;
