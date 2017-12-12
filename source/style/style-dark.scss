@@ -207,8 +207,14 @@ header {
   font-size: 1.5rem;
   line-height: 2.3em;
   font-family: Roboto, Arial, sans-serif;
-  border: 3px solid #333333;
-  background-color: #5d3737;
+  border: 3px solid #fff;
+  background-color: #2e5359;
+  transition: transform 0.4s ease-out; 
+}
+
+.form-control:hover {
+	transform: scale(1.09);
+	transition: transform 0.4s ease-out; 
 }
 
     .btn-warning {
