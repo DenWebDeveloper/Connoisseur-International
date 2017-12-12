@@ -212,6 +212,15 @@ header {
   transition: transform 0.4s ease-out; 
 }
 
+.form-control::-webkit-input-placeholder       {text-indent: 0px;  text-align: center;  color:#fff;  transition: text-indent 0.3s ease;}
+.form-control::-moz-placeholder                {text-indent: 0px;  text-align: center;  color:#fff;  transition: text-indent 0.3s ease;}
+.form-control:-moz-placeholder                 {text-indent: 0px;  text-align: center;  color:#fff; transition: text-indent 0.3s ease;}
+.form-control:-ms-input-placeholder            {text-indent: 0px;  text-align: center;  color:#fff;  transition: text-indent 0.3s ease;}
+.form-control:focus::-webkit-input-placeholder {text-indent: 500px; transition: text-indent 0.3s ease;}
+.form-control:focus::-moz-placeholder          {text-indent: 500px; transition: text-indent 0.3s ease;}
+.form-control:focus:-moz-placeholder           {text-indent: 500px; transition: text-indent 0.3s ease;}
+.form-control:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-indent 0.3s ease;}
+
 .form-control:hover {
 	transform: scale(1.09);
 	transition: transform 0.4s ease-out; 
